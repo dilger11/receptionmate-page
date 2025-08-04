@@ -1,2 +1,154 @@
-# receptionmate-page
-landing page
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reception Mate – Patient‑Experience Platform for Dental Clinics</title>
+    <!-- Link to a lightweight Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <!-- Link to Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-O3h0AR6MvK7M/weuU3kj5OE7hpVwXUr8mHhJJ5KgJMZ13Rqi+fVRp6z+MDKGj7lfcsm0TTbFUHv16O6w6kjPTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #1a1a1a;
+            line-height: 1.6;
+            background: #f7f9fb;
+        }
+        header {
+            background: #0c1f4a;
+            color: #ffffff;
+            padding: 40px 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.2rem;
+        }
+        header p {
+            margin-top: 10px;
+            font-size: 1.1rem;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .cta-button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 12px 24px;
+            background: #1d4ed8;
+            color: #ffffff;
+            border-radius: 4px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: background 0.2s ease;
+        }
+        .cta-button:hover {
+            background: #2563eb;
+        }
+        .features {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 30px;
+            padding: 40px 20px;
+            background: #ffffff;
+        }
+        .feature {
+            background: #eef4ff;
+            border-radius: 8px;
+            padding: 20px;
+            max-width: 280px;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+        }
+        .feature i {
+            font-size: 2.5rem;
+            color: #1d4ed8;
+            margin-bottom: 10px;
+        }
+        .feature h3 {
+            margin: 0 0 10px;
+            font-size: 1.2rem;
+            color: #0c1f4a;
+        }
+        .feature p {
+            margin: 0;
+            font-size: 0.95rem;
+            color: #3b455a;
+        }
+        .about {
+            background: #f1f5f9;
+            padding: 40px 20px;
+            text-align: center;
+        }
+        .about h2 {
+            font-size: 1.8rem;
+            margin-bottom: 10px;
+            color: #0c1f4a;
+        }
+        .about p {
+            max-width: 700px;
+            margin: 0 auto 20px;
+            font-size: 1rem;
+            color: #3b455a;
+        }
+        footer {
+            background: #0c1f4a;
+            color: #a2b2e8;
+            text-align: center;
+            padding: 20px 10px;
+            font-size: 0.85rem;
+        }
+        @media (max-width: 600px) {
+            .features {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Never Miss a Patient Call Again</h1>
+        <p>Reception Mate turns every phone call into a scheduled appointment. Our AI-powered platform answers calls round‑the‑clock, follows up via text, and manages communication through one simple interface.</p>
+        <a href="#contact" class="cta-button">Book a Demo</a>
+    </header>
+
+    <section class="features">
+        <div class="feature">
+            <i class="fas fa-phone-alt"></i>
+            <h3>24/7 Call Handling</h3>
+            <p>Our virtual receptionist answers every call, day or night, so patients never hit voicemail.【398197661362514†screenshot】</p>
+        </div>
+        <div class="feature">
+            <i class="fas fa-sms"></i>
+            <h3>Missed Call Text Back</h3>
+            <p>When a call is missed, we automatically send a text and assign the callback to the right team member.【398197661362514†screenshot】</p>
+        </div>
+        <div class="feature">
+            <i class="fas fa-inbox"></i>
+            <h3>All‑in‑One Inbox</h3>
+            <p>Manage calls, WhatsApp, SMS, email and social messages in one unified inbox.【398197661362514†screenshot】</p>
+        </div>
+        <div class="feature">
+            <i class="fas fa-star"></i>
+            <h3>Reputation Builder</h3>
+            <p>Prompt happy patients to leave five‑star reviews while resolving negative feedback privately.【398197661362514†screenshot】</p>
+        </div>
+    </section>
+
+    <section class="about">
+        <h2>Built for Dental Practices</h2>
+        <p>Reception Mate was designed to improve the patient experience from the very first interaction. By answering every call, sending timely follow‑ups, and simplifying communications, your team can focus on care while our platform handles the rest.</p>
+        <p>Join dental clinics across Ireland who are filling their schedules, reducing no‑shows and building stronger relationships with patients. Let’s chat to see how Reception Mate can help your practice.</p>
+        <a id="contact" href="mailto:info@receptionmate.com" class="cta-button">Schedule Your Call</a>
+    </section>
+
+    <footer>
+        &copy; 2025 Reception Mate. All rights reserved.
+    </footer>
+</body>
+</html>
